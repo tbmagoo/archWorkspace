@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.8.4"
+=======
+  "name": "Notrom",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.1"
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
   },
   "dependencies": {
     "react": "^15.4.1",

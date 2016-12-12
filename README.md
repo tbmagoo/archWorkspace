@@ -13,7 +13,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
+<<<<<<< HEAD
 - [Syntax Highlighting in the Editor](#syntax-highlighting-in-the-editor)
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 - [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)
 - [Installing a Dependency](#installing-a-dependency)
 - [Importing a Component](#importing-a-component)
@@ -47,9 +50,13 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Developing Components in Isolation](#developing-components-in-isolation)
 - [Making a Progressive Web App](#making-a-progressive-web-app)
 - [Deployment](#deployment)
+<<<<<<< HEAD
   - [Serving Apps with Client-Side Routing](#serving-apps-with-client-side-routing)
   - [Building for Relative Paths](#building-for-relative-paths)
   - [Firebase](#firebase)
+=======
+  - [Building for Relative Paths](#building-for-relative-paths)
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
   - [GitHub Pages](#github-pages)
   - [Heroku](#heroku)
   - [Modulus](#modulus)
@@ -58,8 +65,11 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [S3 and CloudFront](#s3-and-cloudfront)
   - [Surge](#surge)
 - [Troubleshooting](#troubleshooting)
+<<<<<<< HEAD
   - [`npm test` hangs on macOS Sierra](#npm-test-hangs-on-macos-sierra)
   - [`npm run build` silently fails](#npm-run-build-silently-fails)
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 - [Something Missing?](#something-missing)
 
 ## Updating to New Releases
@@ -145,8 +155,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+<<<<<<< HEAD
 See the section about [deployment](#deployment) for more information.
 
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -157,10 +170,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+<<<<<<< HEAD
 ## Syntax Highlighting in the Editor
 
 To configure the syntax highlighting in your favorite text editor, head to the [Babel's docs](https://babeljs.io/docs/editors) and follow the instructions. Some of the most popular editors are covered.
 
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 ## Displaying Lint Output in the Editor
 
 >Note: this feature is available with `react-scripts@0.2.0` and higher.
@@ -917,7 +933,11 @@ If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest
 
 ## Developing Components in Isolation
 
+<<<<<<< HEAD
 Usually, in an app, you have a lot of UI components, and each of them has many different states.
+=======
+Usually, in an app, you have a lot of UI components, and each of them has many different states. 
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 For an example, a simple button component could have following states:
 
 * With a text label.
@@ -961,6 +981,7 @@ You can turn your React app into a [Progressive Web App](https://developers.goog
 
 ## Deployment
 
+<<<<<<< HEAD
 `npm run build` creates a `build` directory with a production build of your app. Set up your favourite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file. For example, Python contains a built-in HTTP server that can serve static files:
 
 ```sh
@@ -1006,6 +1027,9 @@ This is because when there is a fresh page load for a `/todos/42`, the server lo
 Now requests to `/todos/42` will be handled correctly both in development and in production.
 
 ### Building for Relative Paths
+=======
+## Building for Relative Paths
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 
 By default, Create React App produces a build assuming your app is hosted at the server root.<br>
 To override this, specify the `homepage` in your `package.json`, for example:
@@ -1016,6 +1040,7 @@ To override this, specify the `homepage` in your `package.json`, for example:
 
 This will let Create React App correctly infer the root path to use in the generated HTML file.
 
+<<<<<<< HEAD
 
 ### Firebase
 
@@ -1078,14 +1103,21 @@ Now, after you create a production build with `npm run build`, you can deploy it
 
 For more information see [Add Firebase to your JavaScript Project](https://firebase.google.com/docs/web/setup).
 
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 ### GitHub Pages
 
 >Note: this feature is available with `react-scripts@0.2.0` and higher.
 
 #### Step 1: Add `homepage` to `package.json`
 
+<<<<<<< HEAD
 **The step below is important!**<br>
 **If you skip it, your app will not deploy correctly.**
+=======
+**The below step is important!**<br>
+**If your skip it, your app will not deploy correctly.**
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 
 Open your `package.json` and add a `homepage` field:
 
@@ -1235,10 +1267,13 @@ If this still doesn't help, try running `launchctl unload -F ~/Library/LaunchAge
 
 There are also reports that *uninstalling* Watchman fixes the issue. So if nothing else helps, remove it from your system and try again.
 
+<<<<<<< HEAD
 ### `npm run build` silently fails
 
 It is reported that `npm run build` can fail on machines with no swap space, which is common in cloud environments. If [the symptoms are matching](https://github.com/facebookincubator/create-react-app/issues/1133#issuecomment-264612171), consider adding some swap space to the machine you’re building on, or build the project locally.
 
+=======
+>>>>>>> 13c65baca89859f84760c80d3b4684106b17d1d7
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
